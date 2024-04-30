@@ -4,7 +4,7 @@ public class BancoDeDados : DbContext
 {
     //Configuração da conexão
     protected override void OnConfiguring(DbContextOptionsBuilder builder) 
-    {builder.UseMySQL("server=localhost;port=3306;database=projeto;user=root;password=SeventhCircle@01");}
+    {builder.UseMySQL("server=localhost;port=3306;database=projeto;user=root;password=positivo");}
 
     //Mapeamento das tabelas
     public DbSet<Pessoa> Pessoas { get; set; }
